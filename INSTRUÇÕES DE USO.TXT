@@ -8,3 +8,7 @@ check_client_access     hash:/etc/postfix/local_ipblacklist
 
 3 - Rode novamente o script adicionando novo TLD e novos IPS a serem bloqueados
 E desta vez aplique o bloqueio no Postfix.
+
+4 - Não esqueça do pacote dialog, pré requisito.  apt-get install dialog
+
+5 - Você pode acompanhar os bloqueios no Tracking Center filtrando por "Rejeitado por envio abusivo"
