@@ -1,0 +1,10 @@
+1 - Rode o script para popular os arquivos necessários com os primeiros endereços IP
+Porém não aplique ao Postfix no última passo da dialog perguntando se deseja aplicar.
+
+2 - No template do main.cf do PMG na seção smtpd_sender_restrictions =
+Crie uma nova linha abaixo da primeira regra de client_access contendo:
+
+check_client_access     hash:/etc/postfix/local_ipblacklist
+
+3 - Rode novamente o script adicionando novo TLD e novos IPS a serem bloqueados
+E desta vez aplique o bloqueio no Postfix.
