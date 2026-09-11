@@ -7,6 +7,9 @@ associados, e opcionalmente aplica esses IPs no bloqueio do Postfix
 
 <img width="797" height="418" alt="image" src="https://github.com/user-attachments/assets/4ee3e8ce-2a1e-4466-a891-336e8cfbd352" />
 
+<img width="719" height="765" alt="image" src="https://github.com/user-attachments/assets/2dcd387d-24c9-4fb1-a822-1b9046a61f65" />
+
+
 
 ---
 
