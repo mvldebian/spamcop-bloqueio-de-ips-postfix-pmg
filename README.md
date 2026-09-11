@@ -5,6 +5,9 @@ hostnames que terminam em um TLD específico, extrai os IPs IPv4
 associados, e opcionalmente aplica esses IPs no bloqueio do Postfix
 (`/etc/postfix/local_ipblacklist`), executando comandos de pós-processamento.
 
+<img width="797" height="418" alt="image" src="https://github.com/user-attachments/assets/4ee3e8ce-2a1e-4466-a891-336e8cfbd352" />
+
+
 ---
 
 ## 📋 Índice
